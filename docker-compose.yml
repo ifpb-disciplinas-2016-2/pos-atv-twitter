@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  service-twitter:
+    container_name: service-victor_twitter
+    build: ./twitter
+    ports:
+      - 8081:8080
