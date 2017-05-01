@@ -18,14 +18,14 @@ Para encerrar os serviços, execute o arquivo *shutdown.sh*
 Módulo criado pelo professor da disciplina para autenticações utilizando a tecnologia *OAuth*
 ### twitter-auth
 Módulo genérico criado pelo aluno para realizar autenticação *OAuth* no *Twitter*
-* ###### application.properties
+* **application.properties**  
 Arquivo de propriedades onde se é informado a *apiKey* e *apiSecret* para sua aplicação *Twitter*
-
+ 
 ### twitter
 Módulo com as regras de negócio proposta pela atividade.
 
 ### Issues conhecidas
 * **Erro no envio de parâmetros para o *Twitter***  
 Erro está provavemnete no modo como o *twitter-auth* faz a montagem do *header* de requisição
-* ** Falha no *deploy* no ambiente *Heroku***  
+* **Falha no *deploy* no ambiente** **Heroku**  
 Erro no *binding* da porta, *$PORT*, fornecida pelo *Heroku*, a causa mais aceita é a mal formatação do arquivo *Dockerfile* no módulo ***twitter***
